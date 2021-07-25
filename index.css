@@ -1,0 +1,223 @@
+*{
+    font-family: 'Poppins';
+}
+header {
+    background-color: #F0F8F9;
+    height: 15cm;
+}
+nav{
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-size: 30px;
+}
+#Streetfood {
+    display: flex;
+}
+.Street-food{
+    margin: 2cm;
+    width: 5cm;
+}
+.Street-food h4 {
+    margin-bottom: -15px;
+}
+.Street-food p {
+    text-align: justify;
+    font-size: 12px;
+}
+.order-now button {
+    display: block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 12px 30px;
+    border-radius: 50px;
+    margin-top: 1cm;
+    margin-left: 1cm;
+    background-color: #6CB840;
+}
+.eat {
+    display: flex;
+}
+.imgeat {
+    float: left;
+}
+.together> h2{
+    color:#EAAB1B;
+    text-align: center;
+    margin-top: 4cm;
+}
+.together> p{
+    text-align: center;
+    content: unset;
+}
+/*--Explore Menu--*/
+#exploremenu {
+    clear: both;
+    background-color: #C9ECB5;
+    height: 10cm;
+}
+.explorehead > h2{
+    text-align: center;
+}
+
+.list {   
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+    padding: 10px;
+}
+.imgexplore {
+    float: left;
+}
+#exploremenu> .one,.two,.three,.four,.five,.six> h5 {
+    text-align: start;
+    margin-bottom: -20px;
+    margin-left: 0cm;
+}
+#exploremenu> .one,.two,.three,.four,.five,.six> p {
+    width: 100cpx;
+    font-size: 12px;
+    text-align:center;
+}
+
+/*--Hotdeals--*/
+#hotdeals {
+    clear: both;
+    background-color: #C9ECB5;
+    height: 15cm;  
+}
+#hotdeals> h2{
+    text-align: center;
+}
+.hot-image {
+    margin: 0cm;
+    width: 30cm;display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hot-image >.img1{
+    float: left;
+    
+}
+.hot-image >.img2{
+    float: left;
+}
+.img1{
+    height: 500px;
+    width: 500px;
+    top: 0cm;
+    position: relative;
+}
+.img2{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 250px;
+    margin-top: 5cm;
+}
+.specialcombo {
+    margin-top: 4cm;
+}
+.specialcombo>p{
+    text-align: center;
+    width: 9cm;
+}
+/*--contacts us--*/
+#contactus {
+    background-color: #FFD77C;
+    height: 15cm;
+    text-align: center;
+
+}
+.contact {
+    width: 6cm;
+    position: relative;
+    left: 550px;
+}
+#contactus .contact form .email input{
+    display: block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 50px;
+    margin-left: -0.5cm;
+}
+form .send button {
+    display: block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 12px 30px;
+    border-radius: 50px;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    background-color: #6CB840;
+   
+}
+/* footer */
+footer {
+    background-color: #C9ECB5;
+    width: 100%; display: flex;
+    flex-direction: row;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.day {
+    width: 5cm;
+    margin-right: 2cm;
+}
+.day h4 {
+    margin-bottom: -0.5cm;
+}
+.address {
+    border-left: dotted #6CB840;
+    margin-right: 7cm;
+}
+.address p {
+    margin-left: 2cm;
+}
+.follow {
+    margin-right: 5cm;
+}
+.follow h4 {
+    margin-bottom: -0.8cm;
+}
+.follow h6 {
+    margin-bottom: -0.5cm;
+}
+.imglast {
+    margin-top: 1cm;
+    margin-left: 2.2cm;
+}
+footer button {
+    display: block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 12px 5px;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    background-color: #6CB840;
+   
+}
+span {
+    color: #6CB840;
+}
+@media all and (min-width: 400px) {
+    body {
+        
+    }
+}
